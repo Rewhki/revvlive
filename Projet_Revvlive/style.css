@@ -1,0 +1,166 @@
+body {
+    background-color: #2c333d !important;
+}
+
+.navbar-custom {
+    background-color:#4053ff;
+    width: 100%; /* Largeur 100% */
+}
+
+.navbar-brand img {
+    height: 60px; /* Augmente la taille du logo */
+}
+
+.navbar-nav .nav-link {
+    color: rgb(248, 248, 248) !important;
+    font-size: large;
+}
+.nav-item .nav-link.active {
+    color: #0d6efd !important;
+}
+.nav-item .nav-link:hover {
+    color: #7050ff !important;
+}
+
+.navbar-nav {
+    justify-content: space-between; /* Espace les éléments de la navbar de manière uniforme */
+}
+.navbar-nav li {
+    margin-right: 20px; /* Ajuster la valeur en pixels selon vos besoins */
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #4053ff;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Oxanium', sans-serif;
+  }
+
+.footer h4, .footer h5 {
+    font-family: 'Oxanium', sans-serif;
+}
+
+.registration-form{
+	padding: 50px 0;
+}
+
+.registration-form form{
+    background-color: #181a1c;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 80px;
+    padding: 50px 70px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .form-icon{
+	text-align: center;
+    background-color: #4053ff;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
+
+.registration-form .form-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Oxanium', sans-serif;
+    margin-bottom: 30px;
+}
+
+.registration-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+
+.registration-form .create-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4053ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
+
+.error-message {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: none;
+  }
+  
+  .error-message.show {
+    display: block;
+  }
+
+.artist-form {
+    background-color: #181a1c;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 80px;
+    padding: 50px 70px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+    text-align: right;
+}
+
+.artist-form .form-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Oxanium', sans-serif;
+    margin-bottom: 40px;
+}
+
+p {
+    margin-bottom: 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#add_artist{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4053ff;
+    border: none;
+    color: white;
+    margin: 0 auto; 
+    margin-top: 40px;
+    display: block; 
+    
+}
